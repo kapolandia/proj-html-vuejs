@@ -4,6 +4,10 @@
   import HomeMakeMark from './components/HomeMakeMark.vue'
   import HomeGame from './components/HomeGame.vue'
   import HomeFacts from './components/HomeFacts.vue'
+  import  HomeStream from './components/HomeStream.vue'
+  import HomeFeedback from './components/HomeFeedback.vue'
+
+ 
 
   export default{
     name: "App",
@@ -13,6 +17,8 @@
       HomeMakeMark,
       HomeGame,
       HomeFacts,
+      HomeStream,
+      HomeFeedback,
     },
     data(){
       return {
@@ -75,15 +81,19 @@
 
 
 <template>
-  <header>
-    <AppHeader></AppHeader>
-    <AppJumbotron></AppJumbotron>
-  </header>
-  <main>
-    <HomeMakeMark></HomeMakeMark>
-    <HomeGame></HomeGame>
-    <HomeFacts></HomeFacts>
-  </main>
+  <body>
+    <header>
+      <AppHeader></AppHeader>
+      <AppJumbotron></AppJumbotron>
+    </header>
+    <main>
+      <HomeMakeMark></HomeMakeMark>
+      <HomeGame></HomeGame>
+      <HomeFacts></HomeFacts>
+      <HomeStream></HomeStream>
+      <HomeFeedback></HomeFeedback>
+    </main>
+  </body>
 </template>
 
 <style lang="scss">
@@ -94,6 +104,10 @@
       padding: 0;
       box-sizing: border-box;
       font-family: "Orbitron", sans-serif;
+    }
+
+    body{
+      background-color: variable.$brand-black;
     }
 
     .my-btn{

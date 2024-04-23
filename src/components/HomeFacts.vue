@@ -10,19 +10,19 @@
             <h2 >Futio Quick Facts</h2>
             <div class="row d-flex my-5">
                 <div class="col my-card">
-                    <h2>358</h2>
+                    <h2>1135</h2>
                     <h6 class="card-subtitle">Twitch Streams</h6>
                 </div>
                 <div class="col my-card">
-                    <h2>14</h2>
+                    <h2>44</h2>
                     <h6 class="card-subtitle">Total Games</h6>
                 </div>
                 <div class="col my-card">
-                    <h2>309</h2>
+                    <h2>982</h2>
                     <h6 class="card-subtitle">Youtube Streams</h6>
                 </div>
                 <div class="col my-card me-0">
-                    <h2>12</h2>
+                    <h2>40</h2>
                     <h6 class="card-subtitle">Pro Team</h6>
                 </div>
             </div>
