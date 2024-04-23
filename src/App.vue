@@ -1,12 +1,14 @@
 <script>
   import AppHeader from './components/AppHeader.vue'
   import AppJumbotron from './components/AppJumbotron.vue'
+  import HomeMakeMark from './components/HomeMakeMark.vue'
 
   export default{
     name: "App",
     components:{
       AppHeader,
       AppJumbotron,
+      HomeMakeMark,
     },
     data(){
       return {
@@ -73,6 +75,9 @@
     <AppHeader></AppHeader>
     <AppJumbotron></AppJumbotron>
   </header>
+  <main>
+    <HomeMakeMark></HomeMakeMark>
+  </main>
 </template>
 
 <style lang="scss">
