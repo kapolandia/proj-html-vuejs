@@ -3,6 +3,7 @@
   import AppJumbotron from './components/AppJumbotron.vue'
   import HomeMakeMark from './components/HomeMakeMark.vue'
   import HomeGame from './components/HomeGame.vue'
+  import HomeFacts from './components/HomeFacts.vue'
 
   export default{
     name: "App",
@@ -11,6 +12,7 @@
       AppJumbotron,
       HomeMakeMark,
       HomeGame,
+      HomeFacts,
     },
     data(){
       return {
@@ -80,6 +82,7 @@
   <main>
     <HomeMakeMark></HomeMakeMark>
     <HomeGame></HomeGame>
+    <HomeFacts></HomeFacts>
   </main>
 </template>
 
