@@ -59,6 +59,7 @@
     h2{
         font-size: 55px;
         color: white;
+        font-weight: 700;
     }
 
     h5{

@@ -24,7 +24,8 @@
 
 <style lang="scss" scoped>
     h1{
-        font-size: 80px;
+        font-size: 76px;
+        font-weight: 700;
     }
 
     h5{
