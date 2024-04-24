@@ -6,7 +6,7 @@
 
 <template>
     <div class="my-wrapper py-5">
-        <div class="container text-center pt-5">
+        <div class="container text-center pt-5 pm-5">
             <h3 class="secondary-color">Latest News</h3>
             <h2>Stay Updated With Our <br> Latest News Articles</h2>
             <h5 class="secondary-font py-3">Libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. <br> Cras ultricies ligula sed magna dictum porta.</h5>
@@ -46,7 +46,7 @@
                             <img src="../assets/img/icon/calendar.png" alt="" style="max-width: 20px;max-height: 20px;" class="ms-4">
                             <p>Apr 11,2022</p>
                         </div>
-                        <h4 class="mini-title">Secrets To An Amazing Role Playing Game</h4>
+                        <h4 class="mini-title">Top 5 Most Important Aspects Of Your Game</h4>
                     </div>
                     </div>
                     <div class="d-flex my-card-2" style="margin-top: 32px;margin-bottom: 32px;">
@@ -64,7 +64,7 @@
                                 <img src="../assets/img/icon/calendar.png" alt="" style="max-width: 20px;max-height: 20px;" class="ms-4">
                                 <p>Apr 11,2022</p>
                             </div>
-                            <h4 class="mini-title">Secrets To An Amazing Role Playing Game</h4>
+                            <h4 class="mini-title">The Rise Of Fantasy Sports And Online Games</h4>
                         </div>
                     </div>
                     <div class="d-flex my-card-2 align-items-center">
@@ -82,14 +82,14 @@
                                 <img src="../assets/img/icon/calendar.png" alt="" style="max-width: 20px;max-height: 20px;" class="ms-4">
                                 <p>Apr 11,2022</p>
                             </div>
-                            <h4 class="mini-title">Secrets To An Amazing Role Playing Game</h4>
+                            <h4 class="mini-title">Benefits Of Gaming - PC And Video Games</h4>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- Articles -->
 
-            <div class="my-card p-5 news-container d-flex align-items-center" style="background-color: #30405f;">
+            <div class="my-card p-5 news-container d-flex align-items-center" style="background-color: #2F3F5F">
                 <div class="w-50">
                     <h4 class="subscribe-title">Subscribe <br> Newsletter</h4>
                     <h5 class="secondary-font py-3 text-white text-start">Libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</h5>

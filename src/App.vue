@@ -8,6 +8,7 @@
   import HomeFeedback from './components/HomeFeedback.vue'
   import HomeDiscount from './components/HomeDiscount.vue'
   import HomeNews from './components/HomeNews.vue'
+  import AppFooter from './components/AppFooter.vue'
 
   export default{
     name: "App",
@@ -21,6 +22,7 @@
       HomeFeedback,
       HomeDiscount,
       HomeNews,
+      AppFooter
     },
     data(){
       return {
@@ -85,7 +87,7 @@
 <template>
   <body>
     <header>
-      <AppHeader></AppHeader>
+      <AppHeader :header="header"></AppHeader>
       <AppJumbotron></AppJumbotron>
     </header>
     <main>
@@ -97,6 +99,9 @@
       <HomeDiscount></HomeDiscount>
       <HomeNews></HomeNews>
     </main>
+    <footer>
+      <AppFooter :footer="footer"></AppFooter>
+    </footer>
   </body>
 </template>
 
