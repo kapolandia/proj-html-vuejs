@@ -6,8 +6,7 @@
   import HomeFacts from './components/HomeFacts.vue'
   import  HomeStream from './components/HomeStream.vue'
   import HomeFeedback from './components/HomeFeedback.vue'
-
- 
+  import HomeDiscount from './components/HomeDiscount.vue'
 
   export default{
     name: "App",
@@ -19,6 +18,7 @@
       HomeFacts,
       HomeStream,
       HomeFeedback,
+      HomeDiscount,
     },
     data(){
       return {
@@ -92,6 +92,7 @@
       <HomeFacts></HomeFacts>
       <HomeStream></HomeStream>
       <HomeFeedback></HomeFeedback>
+      <HomeDiscount></HomeDiscount>
     </main>
   </body>
 </template>
