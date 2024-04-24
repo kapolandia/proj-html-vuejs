@@ -37,25 +37,33 @@
             title: "Games",
             active: false,
             hasSubMenu: true,
-            subMenu: []
+            subMenu: [
+              "Games", "Games Details", "Match Details"
+            ]
           },
           {
             title: "Shop",
             active: false,
             hasSubMenu: true,
-            subMenu: []
+            subMenu: [
+              "Shop", "Shop Single", "Shop Single 2", "Shop Single 3", "Shop Single 4"
+            ]
           },
           {
             title: "Pages",
             active: false,
             hasSubMenu: true,
-            subMenu: []
+            subMenu: [
+              "About Us", "Team"
+            ]
           },
           {
             title: "Blog",
             active: false,
             hasSubMenu: true,
-            subMenu: []
+            subMenu: [
+              "Blog", "Blog Posts"
+            ]
           },
           {
             title: "Contact",
